@@ -1,0 +1,23 @@
+{
+  "name": "ts-data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "gulp build & tsc & node ./dist/arrays/k-th-smallest-largest-element-in-unsorted-array/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barend-erasmus/ts-data-structures.git"
+  },
+  "author": "Barend Erasmus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barend-erasmus/ts-data-structures/issues"
+  },
+  "homepage": "https://github.com/barend-erasmus/ts-data-structures#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "run-sequence": "^2.2.1"
+  }
+}
