@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "gulp build & tsc & node ./dist/arrays/k-th-smallest-largest-element-in-unsorted-array/app.js"
+    "start": "gulp build & tsc & node ./dist/arrays/merge/app.js"
   },
   "repository": {
     "type": "git",
