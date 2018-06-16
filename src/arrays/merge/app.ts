@@ -1,11 +1,11 @@
 /**
- * Merge two arrays
+ * Merge two arrays with additional space
  * Time complexity : O(n + m)
  * Auxiliary Space : O(n + m)
  * @param array1
  * @param array2
  */
-function merge(array1: number[], array2: number[]): number[] {
+function mergeWithAdditionalSpace(array1: number[], array2: number[]): number[] {
     const result: number[] = new Array(array1.length + array2.length);
 
     let index1: number = 0;
@@ -41,4 +41,4 @@ function merge(array1: number[], array2: number[]): number[] {
 const data1: number[] = [1, 4, 7, 8, 10];
 const data2: number[] = [2, 3, 9];
 
-console.log(merge(data1.slice(), data2.slice()));
+console.log(mergeWithAdditionalSpace(data1.slice(), data2.slice()));
